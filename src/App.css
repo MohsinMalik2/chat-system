@@ -1,27 +1,4 @@
- /*body {
-    background-color: #282c34;
-  }
-  
-  
-  
-  .App header {
-    background-color: #181717;
-    height: 10vh;
-    min-height: 50px;
-    color: white;
-    position: fixed;
-    width: 100%;
-    max-width: 728px;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 99;
-    padding: 10px;
-    box-sizing: border-box;
-  } */
-  
- 
+
    body{
      margin: 0;
      padding:0;
@@ -44,7 +21,7 @@
   main {
     padding: 10px;
     height: 50vh;
-    margin: 4vh 0 4vh;
+    margin: 3vh 0 4.2vh;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
@@ -59,7 +36,7 @@
   }
   
   main::-webkit-scrollbar-thumb {
-    background: #6649b8;
+    background: #1976d2;
   }
   
   form {
@@ -75,7 +52,7 @@
   
   form button {
     width: 20%;
-    background-color: rgb(56, 56, 143);
+    background-color: #1976d2;
   }
   
   
@@ -91,7 +68,7 @@
   }
   
   button {
-    background-color: #282c34; /* Green */
+    background-color: #1976d2; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -109,7 +86,7 @@
   
   
   .sign-in {
-    color: #282c34;
+    color: #1976d2;
     background: white;
     max-width: 400px;
     margin: 0 auto;

@@ -10,6 +10,8 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+
 firebase.initializeApp({
   
   apiKey: "AIzaSyBtl55E2TZjmu6gllCgmYS_-mYm3Hp98Tw",
@@ -41,6 +43,11 @@ function App() {
           </section>
         </CardContent>
       </Card>
+
+           
+        <Typography variant="p" color="white" backgroundColor="#1976d2" component="div"  align='center' sx={{p:1}}>
+            All rights reserved by Mohsin Malik
+          </Typography>
      
     </div>
   );
